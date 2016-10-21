@@ -1,0 +1,25 @@
+libcontainer is the default execution driver on docker system.
+
+
+Basic commands for docker::
+
+for Installing docker: Must need CentOS 7 or RHEL 7 kernel version must be 3.*.*.*
+
+For Centos #yum install docker 
+
+For Ubuntu #apt-get install docker.io
+
+Basic commands:
+
+ #docker -v
+   --Basic version info
+   
+ #docker version
+    --Shows more detailed verdion information 
+    
+ #docker info
+    -- Number of containers
+    -- Number of images 
+    -- Storage driver
+    -- Execution driver
+    --etc..
