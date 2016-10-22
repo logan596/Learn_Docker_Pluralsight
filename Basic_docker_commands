@@ -33,4 +33,12 @@ Docker update:
 
 #apt-get update
 
-
+To run docker container
+#docker run -it ubuntu /bin/bash
+ -- docker run says -> startup a new container 
+ -- -it -> make it interactive and assign it tty
+ -- ubuntu -> we gonna need the based container ubuntu image
+ -- and inside of that container we gonna run the /bin/bash process.
+ 
+ 
+Port-2375 standard non SSL docker port.
