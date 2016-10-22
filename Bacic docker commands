@@ -23,3 +23,10 @@ Basic commands:
     -- Storage driver
     -- Execution driver
     --etc..
+
+
+Docker update:
+
+wget -qO- https://get.docker.com/gpg | apt-key add -
+
+
