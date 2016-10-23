@@ -1,2 +1,10 @@
 Major Docker Components
 
+1) Docker needs root to work,
+
+2) By default docker deamon listen on local unix socket called docker.sock (/var/run/docker.sock)
+
+3) docker.sock socket file owner is root and the group is docker.
+
+  -- we can insert the members to this docker group instead of having them root access.
+  
