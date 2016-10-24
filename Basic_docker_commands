@@ -44,3 +44,13 @@ To run docker container
 Port-2375 standard non SSL docker port.
 
 Install wordpress in ubuntu/centos.
+
+
+#docker ps
+
+CTRL+P+Q to exit from the current docker images and get back to the docker hub.
+
+
+#docker ps -a  --> will show you all the containers that you have run on that hub.
+
+
