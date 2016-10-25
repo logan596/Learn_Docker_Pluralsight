@@ -48,7 +48,7 @@ Install wordpress in ubuntu/centos.
 
 #docker ps
 
-CTRL+P+Q to exit from the current docker images and get back to the docker hub.
+CTRL+P+Q to exit from the current docker images without klling it and get back to the docker hub.
 
 
 #docker ps -a  --> will show you all the containers that you have run on that hub.
