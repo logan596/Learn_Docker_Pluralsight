@@ -1,0 +1,23 @@
+Major Docker Components
+
+1) Docker needs root to work,
+
+2) By default docker deamon listen on local unix socket called docker.sock (/var/run/docker.sock)
+
+3) docker.sock socket file owner is root and the group is docker.
+
+  -- we can insert the members to this docker group instead of having them root access.
+  
+4.) Docker filesystem on ubuntu is stored at /var/lib/docker/aufs/file
+
+5.) Docker image filesystem on centos is at /var/lib/docker/devicemapper/file
+
+
+
+Default Storage Driver CentOS
+------devicemapper
+  
+Default Storage Driver CentOS
+------AUFS
+
+

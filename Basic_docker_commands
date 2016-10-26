@@ -1,0 +1,56 @@
+libcontainer is the default execution driver on docker system.
+
+
+Basic commands for docker::
+
+for Installing docker: Must need CentOS 7 or RHEL 7 kernel version must be 3.*.*.*
+
+For Centos #yum install docker 
+
+For Ubuntu #apt-get install docker.io
+
+Basic commands:
+
+ #docker -v
+   --Basic version info
+   
+ #docker version
+    --Shows more detailed verdion information 
+    
+ #docker info
+    -- Number of containers
+    -- Number of images 
+    -- Storage driver
+    -- Execution driver
+    --etc..
+
+
+Docker update:
+
+#wget -qO- https://get.docker.com/gpg | apt-key add -
+
+#echo deb http://get.docker.com/ubuntu docker main > /etc/apt/sources.list.d/docker.list  ## This will add a docker repo to our sources.
+
+#apt-get update
+
+To run docker container
+#docker run -it ubuntu /bin/bash
+ -- docker run says -> startup a new container 
+ -- -it -> make it interactive and assign it tty
+ -- ubuntu -> we gonna need the based container ubuntu image
+ -- and inside of that container we gonna run the /bin/bash process.
+ 
+ 
+Port-2375 standard non SSL docker port.
+
+Install wordpress in ubuntu/centos.
+
+
+#docker ps
+
+CTRL+P+Q to exit from the current docker images without klling it and get back to the docker hub.
+
+
+#docker ps -a  --> will show you all the containers that you have run on that hub.
+
+

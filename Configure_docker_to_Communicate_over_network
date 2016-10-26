@@ -1,0 +1,24 @@
+Configuring docker to communicate over the network.
+
+#netstat -tlp  (TCP listening program)
+  -- To see docker program is already listening on the docker port.
+  
+Stop the docker deammon
+# service docker stop
+
+#docker -H 192.168.56.50:2375 -d &
+   ---(The standard no SSL docker port) and -d means deamon mode 
+
+#netstat -tlp  (TCP listening program)
+
+#docker info
+
+change to docker server to talked to the docker client over thge network we have configure earlier
+
+#export DOCKER_HOST="tcp://192.168.56.50:2375"
+
+#docker version 
+
+To stop receiving from the docker listening connection:
+#export DOCKER_HOST=
+
