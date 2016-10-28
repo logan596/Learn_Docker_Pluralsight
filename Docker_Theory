@@ -1,0 +1,11 @@
+An image is a filesystem and parameters to use at runtime. It doesn’t have state and never changes. A container is a running instance of an image.
+
+Docker dont need to download images every time.Its save the image at your local machine,and when you want to run the container/image docker engine pull that image from the local machine.
+
+Following scenerio will show you the basic flow of the docker engine.
+
+
+   1.checked to see if you had the software image
+   2.downloaded the image from the Docker Hub (more about the hub later)
+   3.loaded the image into the container and “ran” it
+
