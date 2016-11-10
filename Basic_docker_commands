@@ -5,7 +5,25 @@ Basic commands for docker::
 
 for Installing docker: Must need CentOS 7 or RHEL 7 kernel version must be 3.*.*.*
 
-For Centos #yum install docker 
+
+Add Docker repo first:
+
+$ sudo tee /etc/yum.repos.d/docker.repo <<-'EOF'
+[dockerrepo]
+name=Docker Repository
+baseurl=https://yum.dockerproject.org/repo/main/centos/7/
+enabled=1
+gpgcheck=1
+gpgkey=https://yum.dockerproject.org/gpg
+EOF
+
+
+For Centos # sudo yum install docker-engine
+           #systemctl enable docker.service
+           
+           #systemctl start docker
+           #docker run --rm hello-world
+
 
 For Ubuntu #apt-get install docker.io
 
