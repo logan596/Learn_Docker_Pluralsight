@@ -1,0 +1,10 @@
+#docker versin
+#docker info
+#docker images
+#docker history image_name
+#docker ps
+#docker ps -a
+#docker start name_of_container
+#vim Dockerfile
+#
+
