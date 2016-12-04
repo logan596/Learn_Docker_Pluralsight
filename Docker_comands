@@ -7,4 +7,5 @@
 #docker start name_of_container
 #vim Dockerfile
 #docker top container
+#docker run -d -p 5001:80 --name=web1 apache-img
 
