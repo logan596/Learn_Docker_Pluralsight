@@ -6,5 +6,5 @@
 #docker ps -a
 #docker start name_of_container
 #vim Dockerfile
-#
+#docker top container
 
